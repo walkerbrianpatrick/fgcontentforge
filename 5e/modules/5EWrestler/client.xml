@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root version="3.1">
+  <reference static="true">
+   <classdata>
+      <wrestler>
+        <name type="string">Wrestler</name>
+        <text type="formattedtext"><h>Creating a Wrestler</h><p>The wrestler is a charismatic melee fighter who uses his own body as his weapon of choice, executing feats of incredible power and athleticism to wow the crowds that gather to watch his exploits. Shunning the use of most weapons, they are adept with using improvised weapons from their environments...but those are seldom needed by an experienced Wrestler. Often gifted with exceptional strength, speed, and stamina, Wrestlers are capable of dealing out considerable amounts of damage while absorbing just as much, with tactics that tend to revolve around controlling the battlefield. Though notably less suited to fight very large enemies, they are still able to hold their own fairly well if they're smart about it--but clearing out similarly-sized foes is their specialty. They typically enjoy the limelight, thriving on celebrity and creating a real spectacle for their fans--but others prefer to wrestle under a mask or costume as an alter ego, keeping their real identity a relative secret.</p>
+        <h>The Wrestler</h>
+        <table>
+<tr>
+<td><b>Level</b></td>
+<td><b>Proficiency</b><br /><b>Bonus</b></td>
+<td><b>Features</b></td>
+<td><b>Stamina Points</b></td>
+<td><b>Unarmed Strike</b><br /><b>Damage</b></td>
+</tr>
+<tr >
+<td align="center">1st</td>
+<td align="center">+2</td>
+<td align="left">Highly Trained, Unarmored Defense</td>
+<td>--</td>
+<td>1d4
+</td></tr>
+<tr >
+<td align="center">2nd</td>
+<td align="center">+2</td>
+<td align="left">Number One Contender, Star Status</td>
+<td>2</td>
+<td>1d4
+</td></tr>
+<tr >
+<td align="center">3rd</td>
+<td align="center">+2</td>
+<td align="left">(path feature)</td>
+<td>3</td>
+<td>1d4
+</td></tr>
+<tr >
+<td align="center">4th</td>
+<td align="center">+2</td>
+<td align="left"><a href="#Ability_Score_Improvement">Ability Score Improvement</a></td>
+<td>4</td>
+<td>1d4
+</td></tr>
+<tr >
+<td align="center">5th</td>
+<td align="center">+3</td>
+<td align="left">Extra Attack, Title Belt (1)</td>
+<td>5</td>
+<td>1d6
+</td></tr>
+<tr >
+<td align="center">6th</td>
+<td align="center">+3</td>
+<td align="left">(path feature), Pro Status</td>
+<td>6</td>
+<td>1d6
+</td></tr>
+<tr >
+<td align="center">7th</td>
+<td align="center">+3</td>
+<td align="left">Three Count</td>
+<td>7</td>
+<td>1d6
+</td></tr>
+<tr >
+<td align="center">8th</td>
+<td align="center">+3</td>
+<td align="left"><a href="#Ability_Score_Improvement">Ability Score Improvement</a>, Feud,</td>
+<td>8</td>
+<td>1d6
+</td></tr>
+<tr >
+<td align="center">9th</td>
+<td align="center">+4</td>
+<td align="left">Comeback</td>
+<td>9</td>
+<td>1d6
+</td></tr>
+<tr >
+<td align="center">10th</td>
+<td align="center">+4</td>
+<td align="left">(path feature), Title Belt (2)</td>
+<td>10</td>
+<td>1d6
+</td></tr>
+<tr >
+<td align="center">11th</td>
+<td align="center">+4</td>
+<td align="left">Slobberknocker</td>
+<td>11</td>
+<td>1d8
+</td></tr>
+<tr >
+<td align="center">12th</td>
+<td align="center">+4</td>
+<td align="left"><a href="#Ability_Score_Improvement">Ability Score Improvement</a></td>
+<td>12</td>
+<td>1d8
+</td></tr>
+<tr >
+<td align="center">13th</td>
+<td align="center">+5</td>
+<td align="left">Pump Up, Tap Out</td>
+<td>13</td>
+<td>1d8
+</td></tr>
+<tr >
+<td align="center">14th</td>
+<td align="center">+5</td>
+<td align="left">(path feature)</td>
+<td>14</td>
+<td>1d8
+</td></tr>
+<tr >
+<td align="center">15th</td>
+<td align="center">+5</td>
+<td align="left">Rematch, Title Belt (3)</td>
+<td>15</td>
+<td>1d8
+</td></tr>
+<tr >
+<td align="center">16th</td>
+<td align="center">+5</td>
+<td align="left"><a href="#Ability_Score_Improvement">Ability Score Improvement</a></td>
+<td>16</td>
+<td>1d8
+</td></tr>
+<tr >
+<td align="center">17th</td>
+<td align="center">+6</td>
+<td align="left">Showstopper</td>
+<td>17</td>
+<td>1d10
+</td></tr>
+<tr >
+<td align="center">18th</td>
+<td align="center">+6</td>
+<td align="left">Caged Animal</td>
+<td>18</td>
+<td>1d10
+</td></tr>
+<tr >
+<td align="center">19th</td>
+<td align="center">+6</td>
+<td align="left"><a href="#Ability_Score_Improvement">Ability Score Improvement</a></td>
+<td>19</td>
+<td>1d10
+</td></tr>
+<tr >
+<td align="center">20th</td>
+<td align="center">+6</td>
+<td align="left">Undisputed Champion</td>
+<td>20</td>
+<td>1d10
+</td></tr>
+       </table>
+<h>Wrestler Features</h>
+<p>As a wrestler, you gain the following class features.</p>
+<h>Hit Points</h>
+<p><b>Hit Dice:</b> 1d10 per wrestler level</p>
+<p><b>Hit Points At 1st Level:</b> 10 + your Constitution modifier</p>
+<p><b>Hit Points At Higher Levels:</b> 1d10 (or 6) + your Constitution modifier per wrestler level after 1st</p>
+<h>Proficiencies</h
+><p><b>Armor:</b> Light armor</p>
+<p><b>Weapons:</b> Simple weapons, Improvised Weapons (tables, chairs, etc.)</p>
+<p><b>Tools:</b> Disguise Kit</p>
+<p><b>Saving Throws:</b> Strength, Constitution</p>
+<p><b>Skills:</b> Choose three from Acrobatics, Athletics, Deception, Intimidation, Perception, Performance, Persuasion</p>
+<h>Equipment</h>
+<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+<list>
+<li>Disguise Kit with your wrestler's outfit</li>
+<li>(<i>a</i>) an  Entertainer's Pack, or a (<i>b</i>) Dungeoneers's Pack</li>
+</list>
+<h>Wrestler Features</h>
+<h>Highly Trained</h>
+<p>With your rigorous training, your base Unarmed Strike damage increases from 1d4 to d10 (scaling with level as shown on the class chart). In Addition, successfully Grappling or landing a Strike or Wrestling Maneuver allows you to use your Bonus Action to attempt another Strike or Wrestling Maneuver.
+</p>
+<ul><li><b>Strike Damage</b> =[unarmed strike damage] + [STR modifier]</li>
+<li><b>Maneuver Damage</b>= [unarmed strike damage] + [STR modifier]</li>
+<li><b>High Risk Damage</b>= [unarmed strike damage] + [DEX modifier] + [fall height damage]</li></ul>
+<p><br />
+</p>
+<ul><li><i>"<b>Tick</b>" A "Tick" is the term for the continued, sustained damage-over-time of Submission maneuvers. When you use an Attack Action to lock your opponent into a Submission Hold, you can choose to forego making other Actions and simply continue dealing the damage of the maneuver--without needing to make additional Attack rolls--until the target breaks free or "Taps Out".</i></li></ul>
+<ul><li><i>"<b>Breaking Free</b>" your opponents can attempt to break free of your Grapples and Submission Holds on their turn by rolling a contested Grapple Ability check against you--if your opponent's roll is higher, they break free. If their roll is lower than yours, however, the Grapple or Submission Hold remains. Equal rolls reroll.</i></li></ul>
+
+<h>Unarmored Defense</h>
+<p>While not wearing armor (besides Title Belt), your AC is 10 + your CHA modifier + your CON modifier since you seem to draw strength from the thrill of the crowd and the support of your fans.
+</p>
+<h>Number One Contender</h>
+<p>At 2nd level you gain the Grappler feat, and now have access to basic wrestling maneuvers when you are not wielding a weapon.
+</p>
+<pre>General Maneuver damages are calculated by [dice damage] + [ability modifier (STR or DEX)] and are written simply as [dice damage]. [strike] means roll an unarmed strike damage roll based on the chart on a hit to determine damage. They all still require an Attack roll. Stamina is only consumed on a hit. Your Stamina Points are equal to your wrestler Level + CON. You regain all spent Stamina Points after you take a long rest.
+</pre>
+<listlink>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.numberonecontender@DD 5E - Wrestler">Number One Contender</link>
+</listlink>
+
+<h>Star Status</h>
+<p>At 2nd level, you strike a dark bargain, selling your soul in exchange for powerful black magic.
+Upon reaching 2nd level, you are a minor celebrity—so is your wrestling persona loved or hated by the fans?(Decided by alignment)
+</p>
+<ul><li><b>FACE</b>(LG,LN,NG,CG) characters are loved by the general public, whether seen as underdogs or righteous dominators, and are often given extras and bonuses wherever they go. Whether it's stuff, information, or attention, people seem to go out of their way to help, and the FACE gains proficiency with Persuasion (double proficiency if already proficient). However, using Unsportsmanlike Conduct is a no-no, and now drains 2 Stam with each use.</li>
+<li><b>HEEL</b>(CE,CN,NE,LE) characters, on the other hand, are hated and feared, but respected. While most understand it is just a villainous persona, many do not—which can always be used to your advantage. HEEL characters gain additional proficiency with Intimidation (double proficiency if already proficient), and Unsportsmanlike Conduct no longer has a Stam cost.</li>
+<li><b>If your character is True Neutral, you may choose which you are.</b></li></ul>
+<listlink>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.starstatus@DD 5E - Wrestler">Star Status</link>
+</listlink>
+
+<h>Style Choices</h>
+<p>Upon reaching 3rd Level, you must choose what type of Wrestler you want to become—a High Flyer, who wows the crowds with daring acrobatics and deadly high risk techniques? Or a Grand Slammer, who awes his fans with his inhuman strength and crushing slams? Signature Techniques (3 Stam, only usable after a successful attack) are unlocked at 9th level, and Finishers (4 Stam, only usable after a successful attack, and only on targets below ½ HP) are unlocked at 13th Level.</p>
+<listlink>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.abilities.thegrandslammer@DD 5E - Wrestler">The Grand Slammer</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.abilities.thehighflyer@DD 5E - Wrestler">The High Flyer</link>
+</listlink>
+
+<h>Ability Score Increa</h>
+<p>When you reach 4th level, and again at 8th, 12th, 16th and 19th level, you can increase one ability score of you choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+
+<h>Extra Attack</h>
+<p>Beginning at 5th Level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+
+<h>Title Belt</h>
+<p>At 5th Level, the wrestler can procure his first Title Belt. Choosing from World Championship (+2 STR), Hardcore Championship (+2 CON), or TAG TEAM CHAMPIONSHIP (+2 CHA), the wrestler additionally gains +1 AC while wearing the belt, which does not interfere with “Unarmored Defense” or natural Ability Score maximums. You surround yourself in an aura of your own pride adding your CHA modifier to unarmored defense in place of your DEX or CON modifiers. At 10th level, and again at 15th level, you can choose an additional Title Belt, and the AC bonus of your Title Belts increases by 1. Only one Title Belt can be worn at a time. </p>
+
+<h>Pro Status</h>
+<p>At 6th Level, your wrestling experience has been heightened your Unarmed Strikes and Wrestling Maneuvers are magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. </p>
+
+<h>Three Count</h>
+<p>As a Bonus Action after reaching 7th Level, you can attempt to Pin your target—if conscious, a Pinned target must roll 3 STR checks against you (with disadvantage if following a successful Finisher). If target fails, you regain half your total Stam points or HP equal to your level + CHA modifier. If target is unconscious, you automatically succeed. </p>
+
+<h>Feud</h>
+<p>At 8th Level, you can mark an enemy for your wrath. Until the target is incapacitated, you may add your CHA modifier to your Attack and Damage rolls. You must finish a short rest to use this feature again. </p>
+
+<h>Comeback</h>
+<p>Upon reaching 9th Level, the wrestler is able to muster his power and turn the tides of battle when combat is at its bleakest. After falling below ½ of your total HP, you can tap into a sudden surge of adrenaline that restores HP equal to [1d10 + Character Level], as well as grants you an extra Action on top of your regular Action and Bonus Action. You must finish a short rest before using this again. </p>
+
+<h>Slobberknocker</h>
+<p>At 11th Level, you've mastered the art of hitting like a mack truck...whatever that is. You can turn any successful hit or maneuver into a critical hit. You must finish a short rest before using this again. </p>
+
+<h>Pump Up</h>
+<p>After reaching 13th Level, you have learned to live by the motto: “No pain, no gain.” You can use your Action to forego attacking and regain Stamina Points—for the duration, you take half damage, and regain 2 Stamina Points for every attack made against you. Ability lasts until the wrestler takes another Action. You must finish a short rest before using this again. </p>
+
+<h>Tap Out</h>
+<p>By 13th Level, you have become a master of submissions. After maintaining a Submission Hold for 5 consecutive ticks, you incapacitate an enemy for the remainder of combat. Target can return to combat if they are healed or cured of status ailments.
+</p>
+
+<h>Rematch</h>
+<p>Having reached 15th Level, you have faced many, many different opponents—and you have learned their strengths and weaknesses. When facing familiar opponents, you gain Advantage on Attack rolls and Saving Throws.</p>
+
+<h>Showstopper</h>
+<p>At 17th Level, you are known to put on quite the incredible show for spectators, keeping the crowds coming day after day...but when things get tough, you have learned that nothing stops the show like a spectacular grand finale. Spend all your remaining Stamina (minimum of 4) to make one epic, finale Finisher. For each Stamina Point, add an additional [d6] to the Finisher's total. The result is an unmatched display of power, artistry, and showmanship that inspires all who witness it. All allies within visual range gain Inspiration...but Showstopper takes a toll on you, leaving you Stunned for 1 round. You must finish a long rest before using this feature again. </p>
+
+<h>Caged Animal</h>
+<p>By 18th Level, your raw power and tenacity have made you into a true beast on the battlefield. For every enemy you personally kill or incapacitate, you temporarily gain +2 to your primary damage stat (STR or DEX). Effect dissipates 1 minute after combat ends. </p>
+
+<h>Undisputed Champion</h>
+<p>Upon reaching 20th Level, there is no question: you are the greatest champion ever to walk this earth. You gain the title “Undisputed Champion”, and are renowned across the land as a true legend. Rather than having to choose between your title belts, you are given a single, glorious, “Undisputed Championship Belt” that gives you the stat benefits of all 3 title belts at once, and carries an AC bonus of +4. </p>
+
+</text>
+        <hp>
+          <hitdice>
+            <name type="string">Hit Dice</name>
+            <text type="string">1d10 per wrestler level</text>
+          </hitdice>
+          <hitpointsat1stlevel>
+            <name type="string">Hit Points at 1st Level</name>
+            <text type="string">10 + your Constitution modifier</text>
+          </hitpointsat1stlevel>
+          <hitpointsathigherlevels>
+            <name type="string">Hit Points at Higher Levels</name>
+            <text type="string">1d10 (or 6) + your Constitution modifier per wrestler level after 1st</text>
+          </hitpointsathigherlevels>
+        </hp>
+        <proficiencies>
+          <armor>
+            <name type="string">Armor</name>
+            <text type="string">Light armor</text>
+          </armor>
+          <weapons>
+            <name type="string">Weapons</name>
+            <text type="string">Simple weapons, Improvised weapons</text>
+          </weapons>
+          <tools>
+            <name type="string">Tools</name>
+            <text type="string">Disguise Kit</text>
+          </tools>
+          <savingthrows>
+            <name type="string">Saving Throws</name>
+            <text type="string">Strength, Constitution</text>
+          </savingthrows>
+          <skills>
+            <name type="string">Skills</name>
+            <text type="string">Choose three from Acrobatics, Athletics, Deception, Intimidation, Perception, Performance, and Persuasion</text>
+          </skills>
+        </proficiencies>
+        <multiclassproficiencies />
+        <features>
+          <highlytrained>
+            <name type="string">Highly Trained</name>
+            <level type="number">1</level>
+            <text type="formattedtext">
+            <p>With your rigorous training, your base Unarmed Strike damage increases from 1d4 to d10 (scaling with level as shown on the class chart). In Addition, successfully Grappling or landing a Strike or Wrestling Maneuver allows you to use your Bonus Action to attempt another Strike or Wrestling Maneuver.
+</p>
+<ul><li><b>Strike Damage</b> =[unarmed strike damage] + [STR modifier]</li>
+<li><b>Maneuver Damage</b>= [unarmed strike damage] + [STR modifier]</li>
+<li><b>High Risk Damage</b>= [unarmed strike damage] + [DEX modifier] + [fall height damage]</li></ul>
+<p><br />
+</p>
+<ul><li><i>"<b>Tick</b>" A "Tick" is the term for the continued, sustained damage-over-time of Submission maneuvers. When you use an Attack Action to lock your opponent into a Submission Hold, you can choose to forego making other Actions and simply continue dealing the damage of the maneuver--without needing to make additional Attack rolls--until the target breaks free or "Taps Out".</i></li></ul>
+<ul><li><i>"<b>Breaking Free</b>" your opponents can attempt to break free of your Grapples and Submission Holds on their turn by rolling a contested Grapple Ability check against you--if your opponent's roll is higher, they break free. If their roll is lower than yours, however, the Grapple or Submission Hold remains. Equal rolls reroll.</i></li></ul>
+<h4><span class="mw-headline" id="Unarmored_Defense">Unarmored Defense</span></h4>
+<p>While not wearing armor (besides Title Belt), your AC is 10 + your CHA modifier + your CON modifier since you seem to draw strength from the thrill of the crowd and the support of your fans.
+</p>
+            </text>
+          </highlytrained>
+          <numberonecontender>
+            <name type="string">Number One Contender</name>
+            <level type="number">2</level>
+            <text type="formattedtext">
+            <p>At 2nd level you gain the “Grappler” feat, and now have access to basic wrestling maneuvers when you are not wielding a weapon.
+</p>
+<p>General Maneuver damages are calculated by [dice damage] + [ability modifier (STR or DEX)] and are written simply as [dice damage]. [strike] means roll an unarmed strike damage roll based on the chart on a hit to determine damage. They all still require an Attack roll. Stamina is only consumed on a hit. Your Stamina Points are equal to your wrestler Level + CON. You regain all spent Stamina Points after you take a long rest.
+</p>
+
+<h>Lifting Techniques</h> 
+<p>can only be performed while grappling opponent unless otherwise specified.</p>
+
+<ul>
+<li><b>Body Slam</b>, 1 Stam, [2d6, Maneuver ] You lift your opponent up and throw it down hard onto any adjacent square. Target must succeed a CON save or fall prone—if thrown onto another creature, both take damage and must roll saving throws.</li>
+<li><b>Pile Driver</b>, 1 Stam, [2d6, Maneuver ] Hold your opponent upside down and drop down hard to the floor, right on their head. Target must succeed a CON saving throw or be stunned for one round</li>
+<li><b>Whip</b>, free, [no damage] send target running maximum movement in desired direction.</li>
+<li><b>DDT</b>, free, [1d6, Maneuver ] Wrap your arm around your opponent's head and drop their face into the ground. Target is laid out prone, you maintain grapple</li>
+</ul>
+
+<h>Ground Strikes</h>
+<p>performed on a prone opponent, no grapple required.</p>
+<ul>
+<li><b>Stomp</b>, free, [strike ] if the targeted bodypart has been damaged by a Submission during the encounter, you can re-trigger the Submission's effect for the following round (ie. if you Stomp the knee of an opponent who you previously locked into a Figure Four, you re-trigger the "halved movement" penalty for the following round.)</li>
+<li><b>Mounted Punches</b>, 1 Stam [strike per hit] roll a d6, and you may attempt to make that many Unarmed Strikes directly to opponent's face. Attack rolls required for each.</li>
+<li><b>Elbow Drop</b>, free, [strike] classic elbow drop, target can be automatically Pinned afterward.</li>
+</ul>
+<h>Submission Holds</h>
+<p> performed on prone opponent, grapple required. Primarily used to immobilize and cause damage to bodyparts.</p>
+
+<ul>
+<li><b>Choke</b>, free, [strike per tick] if successful, target is Silenced for one round following damage.</li>
+<li><b>Figure Four</b>, free, [strike per tick] for each successful tick, immobilizes opponent for duration and halves their movement for the following round.</li>
+<li><b>Armbar</b>, free, [strike per tick] for each successful tick, immobilizes opponent for duration and halves their damage for the following round.</li>
+<li><b>Crossface</b>, free, [strike per tick] if successful, immobilizes the opponent and target is blinded and silenced for the following round.</li>
+<li><b>Sleeper Hold</b>, 1 Stam, [strike per tick] if successful, target falls asleep for 1 round per Tick. Can be used standing.</li>
+</ul>
+
+<h>Charge Attacks</h>
+<p>must be performed after moving a minimum of 10 feet toward opponent. No grapple required.</p>
+<ul>
+<li><b>Clothesline</b>, free, [1d6, Strike ] target is laid out prone.</li>
+<li><b>Dropkick</b>, free, [1d6, Strike ] you land prone, but target is knocked back up to 10 feet. If they collide with other creatures, those creatures also take the damage.</li>
+</ul>
+
+<h>High Risk</h>
+<p>leaping attacks, high damage but chance of “Botching” if attack misses. Botched Maneuvers result in the Wrestler taking full damage and falling prone. No grapple required.</p>
+<ul>
+<li><b>Flying Clothesline</b>, (HR) free, [2d6, High Risk ] target knocked prone</li>
+<li><b>Frog Splash</b>, (HR) free, [4d6, High Risk] only against prone opponent</li>
+</ul>
+
+<h>Unsportsmanlike Conduct</h>
+<p> dirty fighting usable from any position, target must target you on next turn. No grapple required.</p>
+<ul>
+<li><b>Cheap Shot</b>, 1 Stam, [1d6, Strike] Wrestler uses his Reaction to sucker punch an attacking opponent, causing damage and forcing target to reroll the attack with Disadvantage. If used outside of combat, gain advantage on attack roll, and if it hits will always do critical damage.</li>
+<li><b>Eye Poke</b>, 1 Stam, [1d6, Strike] target is Blinded for 1 round. Creatures without eyes just take damage.</li>
+<li><b>Low Blow</b>, 1 Stam, [2d6, Strike] direct hit to the groin, target is Stunned for 1 round if male. If target is female, or is “unequipped”, target takes half damage and is not Stunned.</li>
+<li><b>Interference</b>, 1 Stam, [1d6, Strike] use your Reaction to slam your body into an adjacent opponent that is targeting another creature for an attack or spell, forcing them to reroll the attack with Disadvantage. Regardless of outcome, that opponent targets you with their next attack.</li>
+</ul>
+<h>Double Team</h>
+<p> if you choose to attack a target that is concentrating on an ally of yours, your ally can choose to use their reaction to assist you in a maneuver. They must roll proper die, with their own stats, for whatever technique you use—the number they roll is added to your damage total for that maneuver.</p>
+
+            </text>
+          </numberonecontender>
+         
+          <starstatus>
+            <name type="string">Star Status</name>
+            <level type="number">2</level>
+            <text type="formattedtext">
+            <p>At 2nd level, you strike a dark bargain, selling your soul in exchange for powerful black magic.
+Upon reaching 2nd level, you are a minor celebrity—so is your wrestling persona loved or hated by the fans?(Decided by alignment)
+</p>
+<ul><li><b>FACE</b>(LG,LN,NG,CG) characters are loved by the general public, whether seen as underdogs or righteous dominators, and are often given extras and bonuses wherever they go. Whether it's stuff, information, or attention, people seem to go out of their way to help, and the FACE gains proficiency with Persuasion (double proficiency if already proficient). However, using Unsportsmanlike Conduct is a no-no, and now drains 2 Stam with each use.</li>
+<li><b>HEEL</b>(CE,CN,NE,LE) characters, on the other hand, are hated and feared, but respected. While most understand it is just a villainous persona, many do not—which can always be used to your advantage. HEEL characters gain additional proficiency with Intimidation (double proficiency if already proficient), and Unsportsmanlike Conduct no longer has a Stam cost.</li>
+<li><b>If your character is True Neutral, you may choose which you are.</b></li></ul>
+            
+            </text>
+          </starstatus>
+          <titlebelt1>
+            <name type="string">Title Belt 1</name>
+            <level type="number">5</level>
+            <text type="formattedtext"><p>At 5th Level, the wrestler can procure their first Title Belt. Choosing from World Championship (+2 STR), Hardcore Championship (+2 CON), or TAG TEAM CHAMPIONSHIP (+2 CHA), the wrestler additionally gains +1 AC while wearing the belt, which does not interfere with “Unarmored Defense” or natural Ability Score maximums. You surround yourself in an aura of your own pride adding your CHA modifier to unarmored defense in place of your DEX or CON modifiers.</p></text>
+          </titlebelt1>
+          <titlebelt2>
+            <name type="string">Title Belt 2</name>
+            <level type="number">10</level>
+            <text type="formattedtext"><p>At 10th Level, the wrestler can procure their second Title Belt. Choosing from World Championship (+2 STR), Hardcore Championship (+2 CON), or TAG TEAM CHAMPIONSHIP (+2 CHA), whichever they have not yet acquired. The wrestler may only wear one belt at a time, but the AC bonus from wearing any title belt increases to +2.</p></text>
+          </titlebelt2>
+          <titlebelt3>
+            <name type="string">Title Belt 3</name>
+            <level type="number">15</level>
+            <text type="formattedtext"><p>At 15th Level, the wrestler can procure their third Title Belt. Choosing from World Championship (+2 STR), Hardcore Championship (+2 CON), or TAG TEAM CHAMPIONSHIP (+2 CHA), whichever they have not yet acquired. The wrestler may only wear one belt at a time, but the AC bonus from wearing any title belt increases to +3.</p></text>
+          </titlebelt3>          
+          
+          <abilityscoreimprovement4>
+            <name type="string">Ability Score Improvement - 4</name>
+            <level type="number">4</level>
+            <text type="formattedtext"><p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></text>
+          </abilityscoreimprovement4>
+          <abilityscoreimprovement8>
+            <name type="string">Ability Score Improvement - 8</name>
+            <level type="number">8</level>
+            <text type="formattedtext"><p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></text>
+          </abilityscoreimprovement8>
+          <abilityscoreimprovement12>
+            <name type="string">Ability Score Improvement - 12</name>
+            <level type="number">12</level>
+            <text type="formattedtext"><p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></text>
+          </abilityscoreimprovement12>
+          <abilityscoreimprovement16>
+            <name type="string">Ability Score Improvement - 16</name>
+            <level type="number">16</level>
+            <text type="formattedtext"><p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></text>
+          </abilityscoreimprovement16>
+          <abilityscoreimprovement19>
+            <name type="string">Ability Score Improvement - 19</name>
+            <level type="number">19</level>
+            <text type="formattedtext"><p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></text>
+          </abilityscoreimprovement19>
+          
+          <extraattack5>
+            <name type="string">Extra Attack</name>
+            <level type="number">5</level>
+            <text type="formattedtext"><p>Beginning at 5th Level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p></text>
+          </extraattack5>
+          <prostatus>
+            <name type="string">Pro Status</name>
+            <level type="number">6</level>
+            <text type="formattedtext"><p>At 6th Level, your wrestling experience has been heightened your Unarmed Strikes and Wrestling Maneuvers are magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage. </p></text>
+          </prostatus>
+          <threecount>
+            <name type="string">Three Count</name>
+            <level type="number">7</level>
+            <text type="formattedtext"><p>As a Bonus Action after reaching 7th Level, you can attempt to Pin your target—if conscious, a Pinned target must roll 3 STR checks against you (with disadvantage if following a successful Finisher). If target fails, you regain half your total Stam points or HP equal to your level + CHA modifier. If target is unconscious, you automatically succeed.</p></text>
+          </threecount>
+
+          <feud>
+            <name type="string">Feud</name>
+            <level type="number">8</level>
+            <text type="formattedtext"><p>At 8th Level, you can mark an enemy for your wrath. Until the target is incapacitated, you may add your CHA modifier to your Attack and Damage rolls. You must finish a short rest to use this feature again.</p></text>
+          </feud>
+          
+          <comeback>
+            <name type="string">Comeback</name>
+            <level type="number">9</level>
+            <text type="formattedtext"><p>Upon reaching 9th Level, the wrestler is able to muster his power and turn the tides of battle when combat is at its bleakest. After falling below ½ of your total HP, you can tap into a sudden surge of adrenaline that restores HP equal to [1d10 + Character Level], as well as grants you an extra Action on top of your regular Action and Bonus Action. You must finish a short rest before using this again.</p></text>
+          </comeback>
+          <slobberknocker>
+            <name type="string">Slobberknocker</name>
+            <level type="number">11</level>
+            <text type="formattedtext"><p>At 11th Level, you've mastered the art of hitting like a mack truck...whatever that is. You can turn any successful hit or maneuver into a critical hit. You must finish a short rest before using this again. </p></text>
+          </slobberknocker>
+          <pumpup>
+            <name type="string">Pump Up</name>
+            <level type="number">13</level>
+            <text type="formattedtext"><p>After reaching 13th Level, you have learned to live by the motto: “No pain, no gain.” You can use your Action to forego attacking and regain Stamina Points—for the duration, you take half damage, and regain 2 Stamina Points for every attack made against you. Ability lasts until the wrestler takes another Action. You must finish a short rest before using this again.</p></text>
+          </pumpup>
+          <tapout>
+            <name type="string">Tap Out</name>
+            <level type="number">13</level>
+            <text type="formattedtext"><p>By 13th Level, you have become a master of submissions. After maintaining a Submission Hold for 5 consecutive ticks, you incapacitate an enemy for the remainder of combat. Target can return to combat if they are healed or cured of status ailments. </p></text>
+          </tapout>
+          <rematch>
+            <name type="string">Rematch</name>
+            <level type="number">15</level>
+            <text type="formattedtext"><p>Having reached 15th Level, you have faced many, many different opponents—and you have learned their strengths and weaknesses. When facing familiar opponents, you gain Advantage on Attack rolls and Saving Throws. </p></text>
+          </rematch>
+          <showstopper>
+            <name type="string">Show Stopper</name>
+            <level type="number">17</level>
+            <text type="formattedtext"><p>At 17th Level, you are known to put on quite the incredible show for spectators, keeping the crowds coming day after day...but when things get tough, you have learned that nothing stops the show like a spectacular grand finale. Spend all your remaining Stamina (minimum of 4) to make one epic, finale Finisher. For each Stamina Point, add an additional [d6] to the Finisher's total. The result is an unmatched display of power, artistry, and showmanship that inspires all who witness it. All allies within visual range gain Inspiration...but Showstopper takes a toll on you, leaving you Stunned for 1 round. You must finish a long rest before using this feature again.
+</p></text>
+          </showstopper>
+          <cagedanimal>
+            <name type="string">Caged Animal</name>
+            <level type="number">18</level>
+            <text type="formattedtext"><p>By 18th Level, your raw power and tenacity have made you into a true beast on the battlefield. For every enemy you personally kill or incapacitate, you temporarily gain +2 to your primary damage stat (STR or DEX). Effect dissipates 1 minute after combat ends. 
+</p></text>
+          </cagedanimal>
+	<undisputedchampion>
+            <name type="string">Undisputed Champion</name>
+            <level type="number">20</level>
+            <text type="formattedtext"><p>Upon reaching 20th Level, there is no question: you are the greatest champion ever to walk this earth. You gain the title “Undisputed Champion”, and are renowned across the land as a true legend. Rather than having to choose between your title belts, you are given a single, glorious, “Undisputed Championship Belt” that gives you the stat benefits of all 3 title belts at once, and carries an AC bonus of +4. 
+</p></text>
+          </undisputedchampion>
+	<stylechoices>
+            <name type="string">Style Choices</name>
+            <level type="number">3</level>
+            <text type="formattedtext"><p>Upon reaching 3rd Level, you must choose what type of Wrestler you want to become—a High Flyer, who wows the crowds with daring acrobatics and deadly high risk techniques? Or a Grand Slammer, who awes his fans with his inhuman strength and crushing slams? Signature Techniques (3 Stam, only usable after a successful attack) are unlocked at 9th level, and Finishers (4 Stam, only usable after a successful attack, and only on targets below ½ HP) are unlocked at 13th Level.</p>
+<listlink>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.abilities.thegrandslammer@DD 5E - Wrestler">The Grand Slammer</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.abilities.thehighflyer@DD 5E - Wrestler">The High Flyer</link>
+</listlink>
+            
+</text>
+	<specializationchoice type="number">1</specializationchoice>
+          </stylechoices>
+          
+          <twentyfourinchpythons>
+            <name type="string">24-Inch Pythons</name>
+            <level type="number">20</level>
+            <specialization type="string">The Grand Slammer</specialization>
+            <text type="formattedtext">
+            <p>Pythons as in 'your biceps', not actual pythons. By 3rd Level, you are unnaturally strong, and gain Advantage on all CON, STR and Athletics Checks. You can grapple, shove, and lift creatures one size larger than yourself as if they were your size, and you have access to the STR-based Power Maneuvers.
+</p>
+<h>Lifting Techniques</h>
+
+<ul>
+<li><b>Gorilla Press</b>, 1 Stam [2d6, Maneuver] benchpress your opponent over your head, and make up to 3 STR checks against your opponent. For each success, you regain 2 Stam. When finished, you can drop your opponent prone onto any adjacent square—if all 3 STR checks were successful, you can heave the opponent up to 10 feet and add an extra [1d6] to the damage.</li>
+<li><b>Powerbomb</b>, 2 Stam [4d6, Maneuver] pull your opponent head-over-heels into the air, and slam them back down to earth. Target is knocked prone and stunned for 1 round.</li>
+<li><b>Suplex</b>, 1 Stam [1d6, Maneuver] hoist your opponent vertically over your head and fall with them to the ground, maintaining your grapple. Roll a STR check against your target—if successful, perform another Suplex. Repeat until you fail the check, to a maximum of 3 Suplexes.</li>
+</ul>
+
+<h>Charging Attacks</h>
+<ul>
+<li><b>Spear</b>, 2 Stam, [2d6, Strike ] Use your full bodyweight to slam into the target in a football-style shoulder tackle. The target is laid out prone, and is instantly considered “grappled”.</li>
+</ul>
+<h>Ground Strikes</h>
+<ul>
+<li><b>Double Axehandle</b>, free, [1d6, Strike ] using both hands like a sledgehammer, you slam down hard on the back of your opponent's head. Target must succeed a CON save or be stunned for 1 round.</li>
+<li><b>Open Palm Strike</b>, free, [1d4, Strike ] You Strike the opponents head with incredibly fast open handed strikes. The Target must make a Wisdom saving throw or allow another palm strike.</li>
+</ul>
+<h>Submission Holds</h>
+<ul>
+<li><b>Hurricane Toss</b>, free, [1d6, Maneuver] grab target by the feet, swing them around, and launch them up to 15 feet. If launched into another object, target takes an additional [1d6] damage—if the object is another creature, both creatures take the full damage.</li>
+<li><b>Torture Rack</b>, 1 Stam, [1d6, Strike, per tick] Lay the target across your shoulders and pull down on both sides with all your might, bending them in half like a bow. Can be used while standing.</li>
+</ul>
+</text>
+          </twentyfourinchpythons>
+          
+  	<signaturemovesthegrandslammer>
+            <name type="string">Signature Moves</name>
+            <level type="number">8</level>
+            <specialization type="string">The Grand Slammer</specialization>
+            <text type="formattedtext"><p>Unlocked at 8th Level. Only usable after a successful attack.</p>
+<ul>
+<li><b>Choke Slam</b> (S), 3 Stam, [6d6, Maneuver] You clamp one hand around your target's throat, lift them off the ground, and slam them back into the dirt. The target must roll a CON save—if successful, they are silenced for 2 rounds. If failed, their vocal chords are critically damaged by the attack, and they are incapable of speech until healed or cured of status ailments.</li>
+<li><b>Back Breaker</b> (S), 3 Stam, [6d6, Maneuver] In a mighty display of strength, you raise your opponent high above your head before cracking their spine over the top of your knee. The target must roll a CON save—if successful, they are Paralyzed for 1 round. If failed, they are Paralyzed for 2 rounds.</li>
+<li><b>Rock Bottom</b> (S), 3 Stam, [6d6, Maneuver] With amazing power and speed, you slam your arm across an opponent's chest and throw their arm over your shoulder—a split second later, they are lifted off their feet and plowed into the ground flat on their back. If immediately followed by an Elbow Drop, the Elbow Drop becomes a “People's Elbow”, dealing critical damage and adding your CHA modifier to the total.</li>
+<li><b>Spine Buster</b> (S), 3 Stam (5d6, Maneuver) In pro wrestling, a spinebuster is a move that involves a wrestler picking up his opponent, spinning, then finally slamming them down onto their back, or spine. The Target is considered prone, and you may make a Pin maneuver for free.</li>
+</ul>
+
+            </text>
+          </signaturemovesthegrandslammer>        
+          
+            	<finishersthegrandslammer>
+            <name type="string">Finishers</name>
+            <level type="number">12</level>
+            <specialization type="string">The Grand Slammer</specialization>
+            <text type="formattedtext"><p>Unlocked at 12th Level. Only usable after a successful attack, and if opponent is at or below ½ HP. Attempting while target is above half health has a 50% chance to result in a "Botched Maneuver". </p>
+<ul>
+<li><b>Jackhammer</b> (F), 4 Stam, [10d6, Maneuver] With unbelievable power, you hoist your opponent high into the air, holding them vertically for up to five seconds before twisting your body and slamming them back down onto the ground. Target is Stunned for 1 round, and automatically Pinned.</li>
+<li><b>Tombstone</b> (F), 4 Stam, [10d6, Maneuver] With terrifying ease, you twist your unsuspecting opponent upside-down, their head held just a few feet off the ground—before dropping heavily to your knees and yanking downward, crushing their neck and smashing their face several inches into the earth. Target is Paralyzed for 1 round, and automatically Pinned.</li>
+<li><b> Claymore Kick</b> (F), 4 Stam, (11d6, Strike) You run 15 feet and deliver a double foot jumping dropkick. This attack knocks the target back 10 feet and they must make a CON Save or be knocked prone. You are knocked prone as a result of the attack.</li>
+<li><b> RKO</b> (F), 4 Stam, (10d6, Manuever) With great power and precision you grab the enemies head and drive it into the ground behind your shoulder as you fall to the ground. This Finisher can be performed "Out of Nowhere" by using your reaction to perform this finisher when an adjacent enemy is attacked by a friendly unit. This Finisher can be performed "Out of Nowhere" regardless of if you are prone or not, but otherwise requires both you and the opponent to be standing. This finisher can only be performed "Out of Nowhere" once and you must finish a long rest before performing it "Out of Nowhere" again.</li></ul>
+            </text>
+          </finishersthegrandslammer>        
+     
+          <imcallingyouout>
+            <name type="string">I'm Calling You Out!</name>
+            <level type="number">6</level>
+            <specialization type="string">The Grand Slammer</specialization>
+            <text type="formattedtext"><p>It's amazing what a little flexing and a lot of machismo can do—as a Bonus Action at 6th Level, you can call out an opponent on their pathetic weakness, and force them to focus their attention on you during their next turn. They must make a CHA saving throw or focus on you.</p>
+            </text>
+          </imcallingyouout>   
+          
+          <vicegrip>
+            <name type="string">Vicegrip</name>
+            <level type="number">10</level>
+            <specialization type="string">The Grand Slammer</specialization>
+            <text type="formattedtext"><p>By 10th Level, your grip is like a clamped bear trap. You can choose to turn a failed Grapple check into an automatic success twice. You must finish a short rest before using this again.</p>
+            </text>
+          </vicegrip>       
+          
+          <truechampion>
+            <name type="string">True Champion</name>
+            <level type="number">14</level>
+            <specialization type="string">The Grand Slammer</specialization>
+            <text type="formattedtext"><p>At 14th Level, you're officially hulking out—you can now successfully grapple and lift creatures of your size or smaller without a STR check, though doing so still requires the respective actions. In addition, once per rest, you can attempt to grapple and/or shove a creature two sizes larger.</p>
+            </text>
+          </truechampion>       
+            
+          <daredevil>
+            <name type="string">Daredevil</name>
+            <level type="number">3</level>
+            <specialization type="string">The High Flyer</specialization>
+            <text type="formattedtext"><p>Bumps, bruises, and broken bones are all part of your job description. By 3rd Level, you've become a natural at the death-defying, heart-stopping maneuvers that keep the fans on the edge of their seats. You gain Advantage on all DEX and Acrobatics Checks, and can now add your Proficiency Bonus to the damage rolls of all High Risk Maneuvers. Additionally, you gain access to the following Agility Maneuvers:</p>
+<h>Lifting Techniques</h>
+<ul>
+<li><b>Hip Toss</b>, 1 Stam [2d6, Maneuver] grab and control your opponent's arm, using their own momentum to flip them over your hip and slam them onto the ground. Target is considered “grappled”, and you immediately put them into an Armbar, getting one Tick of its damage without requiring an action.</li>
+</ul>
+
+<h>Charging Attacks</h>
+<ul
+><li><b>Lariat</b>, free, [1d6, Strike ] Leap over the opponent's head and hook them by the neck, dropping them to the ground as you come down. The target is Silenced for one round, and considered “grappled”.</li>
+<li><b>Flying Headscissors</b>, 1 Stam, [2d6, Maneuver] You wrap your legs around the target's head and use your momentum to spin around their body, creating so much torque that you literally throw them off their feet. Confused by what just happened to them, your opponent has Disadvantage on their next attack.</li></ul>
+<h>Ground Strikes</h>
+<ul>
+<li><b>Lionsault</b>, free, [1d6, Strike] Showing your impressive acrobatic skills, you do a standing backflip and splash with your full force down onto the target, automatically pinning them. If you can catapult yourself off of a wall or sturdy object within 10 feet, Lionsault's damage increases to [2d6 + strike + proficiency bonus].</li>
+</ul>
+<h>Submission Holds</h>
+<ul>
+<li><b>Sharpshooter</b>, 1 Stam, [1d6, Strike, per tick] With a stylish spin, you twist the opponent's legs around your own and turn them onto their stomach, before kneeling on their back and wrenching their legs back over their head. The target's movement speed is reduced by 5 feet per Tick—if Sharpshooter Ticks on an opponent at 0 movement speed, the target is unable to stand for the duration of combat unless healed.</li>
+</ul>
+
+<h>High Risk Maneuvers</h>
+<ul>
+<li><b>Missile Dropkick</b> (HR), 1 Stam, [4d6, High Risk] grab target by the feet, swing them around, and launch them up to 15 feet. If launched into another object, target takes an additional [1d6] damage—if the object is another creature, both creatures take the full damage.</li>
+<li><b>Leg / Knee / Elbow Drop</b> (HR)– 1 Stam, [3d6, High Risk] Leap down with either your leg, knee, or elbow landing on a limb (or face) of your opponent. If the target has suffered damage to the area from a previous Submission Hold during the encounter, the Submission's effect is re-triggered for the following round. If the target has not suffered damage to the area, they must succeed at a Constitution Saving Throw (DC save equal to 8 + your Strength Modifier + your Proficiency Bonus) or suffer from whatever effect a Submission to the area would cause (see "Figure Four", "Armbar", or "Crossface").</li>
+</ul>
+            </text>
+          </daredevil>       
+
+          <signaturemovesthehighflyer>
+            <name type="string">Signature Moves</name>
+            <level type="number">8</level>
+            <specialization type="string">The High Flyer</specialization>
+            <text type="formattedtext"><p>Unlocked at 8th Level. Only usable after a successful attack unless otherwise specified. 
+            </p>
+            <ul><li><b>Frankensteiner</b> (S), 3 Stam, [4d6, Maneuver] You leap up and clamp your legs around your opponent's neck before whipping yourself backwards, your momentum throwing the target head-over-heels onto their back. You can choose to either release, flinging the target up to 10 feet and causing equal damage to any creatures he impacts, or to maintain the grapple and land two punches for [strike] damage each.</li>
+<li><b>Stunner</b> (S), 3 Stam [6d6, Maneuver] you kick the target once in the midsection to keel them forward, pull their head against the top of your shoulder, and drop to the ground, crushing their face and rattling their brain. Your opponent must make a CON save—if they succeed, they are only Stunned for 1 round. If they fail, they are Stunned for 2 rounds.</li>
+<li><b>Laying the Smackdown</b> (S), 3 Stam, [6d6, Maneuver] As a Reaction, you can use your catlike reflexes to turn an opponent's attack into an opportunity to let 'em smell exactly what you're cookin'. Roll a DEX check against your target—if successful, you avoid their damage entirely, swinging and juking around them before finally pulling them down face-first into a particularly-painful DDT. If you fail, you take full damage, the Stam points are wasted, and you look like an idiot.</li>
+</ul>
+
+            </text>
+          </signaturemovesthehighflyer>      
+           <finishersthehighflyer>
+            <name type="string">Finishers</name>
+            <level type="number">12</level>
+            <specialization type="string">The High Flyer</specialization>
+            <text type="formattedtext"><p>Unlocked at 12th Level. Only usable after a successful attack, and only if opponent is at or below ½ HP. Attempting to use on a target above half health has a 50% chance to result in a “Botched Maneuver”.</p>
+
+<ul><li><b>Sweet Chin Music</b> (F), 4 Stam, [10d6, Strike] As your opponent recovers, you begin stomping your leg as you charge up a superkick—roll a d6 to determine how many charge-up stomps you get. As your target turns around, you can make a power shuffle up to 10 feet toward them and drive a devastating side kick deep into the target's jaw. For every stomp you managed, add ½ of your CHA modifier, rounded down, to your total damage.</li>
+<li><b>Shooting Star</b> (F, HR), 4 Stam, [10d6, High Risk] The High Risk Maneuver to end all High Risk Maneuvers, this death-defying stunt is only dared by the most fearless of Wrestlers. Leaping from your perch atop a high object or platform, you throw your head backwards, causing you to flip backwards while diving forwards. The added torsion and the flawless technique make this an exceptional impact—upon landing squarely across your target, you automatically Pin them and succeed at your first Three Count roll.</li></ul>
+            </text>
+          </finishersthehighflyer>           
+          
+          <runningyourmouth>
+            <name type="string">Running Your Mouth</name>
+            <level type="number">6</level>
+            <specialization type="string">The High Flyer</specialization>
+            <text type="formattedtext"><p>Upon reaching 6th Level, whatever you may lack in strength, you more than make up for in bravado. As a Bonus Action, you hurl insult after insult at your target, taunting and distracting them to the point of giving your opponent Disadvantage against any other target but you on their next turn.</p>
+            </text>
+          </runningyourmouth>           
+          
+          <sticksstonesandbrokenbones>
+            <name type="string">Sticks, Stones, and Broken Bones</name>
+            <level type="number">10</level>
+            <specialization type="string">The High Flyer</specialization>
+            <text type="formattedtext"><p>By 10th Level you fear nothing, and are accustomed to the pain that often comes with your impressive aerial stunts—you gain immunity to Fear effects, and now only take half damage from Botched Maneuvers, rounded down, and no longer land prone. In addition, you have Advantage against any attacks that attempt to knock you prone. </p>
+            </text>
+          </sticksstonesandbrokenbones>              
+          <heartbreakkid>
+            <name type="string">Heartbreak Kid</name>
+            <level type="number">14</level>
+            <specialization type="string">The High Flyer</specialization>
+            <text type="formattedtext"><p>Having reached 14th Level, you have earned a reputation as the best kind of heartbreaker—and it is certainly well-deserved. You gain Advantage on all CHA Checks and Saves against the opposite sex, and can now acquire “Groupies” and “Fanboys”. Groupies and Fanboys will act as hired help to perform small tasks or services, requiring only an autograph or a kiss for payment. Groupies and Fanboys cannot leave their hometowns, but will remain painfully loyal while you are apart.
+
+In addition you can now use: Autographical Pain (F) - 5 Stam, [16d6, High Risk] Your fame is now so awe inspiring and overpowering that even your opponents want a piece of the action. By using your charm, wit, presence, or whatever it was that made people like/fear you in the first place, you can lure your opponent into asking for an autograph from you. Roll with whatever your highest CHA based skill is when luring in the opponent. Once they get in range, you drop the act and leap upwards with great force. On your way up, you scissor lock the opponent's head between your legs and take them with you. At the peak of your 30 foot leap, you flip the opponent's legs up into you hands, and start falling downwards. The impact as you slam enemy first into the ground sends light tremors through the earth. Because of the amount of energy required for this attack, you must finish a long rest before using it again. </p>
+            </text>
+          </heartbreakkid>           
+        </features>
+        
+        <multiclassfeatures />
+        <abilities>
+          <thegrandslammer>
+            <name type="string">The Grand Slammer</name>
+            <level type="number">3</level>
+            <text type="formattedtext"><p>The “heavy hitter”. The “powerhouse”. The “wrecking ball”. These are just a few of the nicknames you've garnered –and you've earned every last one. You are all that is man—a titan defined by your incredible physical power, leaving spectators awestruck with feats of seemingly inhuman strength. Some foes may laugh at your lack of weapons at first...but they are quick to learn that your hands are far deadlier than anything you might carry. </p>
+            
+<h>Features</h>
+<listlink><link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.twentyfourinchpythons@DD 5E - Wrestler">24-Inch Pythons</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.signaturemovesthegrandslammer@DD 5E - Wrestler">Signature Moves</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.finishersthegrandslammer@DD 5E - Wrestler">Finishers</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.imcallingyouout@DD 5E - Wrestler">I'm Calling You Out!</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.vicegrip@DD 5E - Wrestler">Vicegrip</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.cleric.features.truechampion@DD 5E - Wrestler">True Champion</link>
+</listlink>
+</text>
+          </thegrandslammer>
+          <thehighflyer>
+            <name type="string">The High Flyer</name>
+            <level type="number">3</level>
+            <text type="formattedtext"><p>The word "fear" is not in your vocabulary. You've put your body through hell and back, and you keep coming back for more. Though you may not be a colossus on the battlefield, you've learned how to use momentum to drop even the greatest of foes to their knees--and how to use gravity to crush them into the dirt. Whether springing around your enemies or leaping down upon them from terrifying heights, a High Flyer is always a true spectacle to behold for any fortunate enough to watch.</p>
+            
+<h>Features</h>
+<listlink><link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.daredevil@DD 5E - Wrestler">Dare Devil</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.signaturemovesthehighflyer@DD 5E - Wrestler">Signature Moves</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.finishersthehighflyer@DD 5E - Wrestler">Finishers</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.runningyourmouth@DD 5E - Wrestler">Running Your Mouth</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.sticksstonesandbrokenbones@DD 5E - Wrestler">Sticks, Stones, and Broken Bones</link>
+<link type="windowreference" class="reference_classfeature" recordname="reference.classdata.wrestler.features.heartbreakkid@DD 5E - Wrestler">Heartbreak Kid</link>
+</listlink>
+</text>
+          </thehighflyer>
+          
+          
+        </abilities>
+        <equipment>
+          <standard>
+            <group type="string">standard</group>
+            <item type="string"><p>You start with the following equipment, in addition to the equipment granted by your background:</p><list><li>disguise kit with your wrestler's outfit</li><li>(<i>a</i>) a entertainer's pack or (<i>b</i>) an dungeoneer's pack</li></list></item>
+          </standard>
+        </equipment>
+      </wrestler>
+    </classdata>
+    <classlists>
+      <byletter>
+        <description type="string">Classes</description>
+        <groups>
+          <typeletterW>
+            <description type="string">W</description>
+            <index>
+              <wrestler>
+                <link type="windowreference">
+                  <class>reference_class</class>
+                  <recordname>reference.classdata.wrestler@DD 5E - Wrestler</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string" />
+              </wrestler>
+            </index>
+          </typeletterW>
+        </groups>
+      </byletter>
+    </classlists>
+    <imagedata>
+      <category name="D&amp;D 5E - Wrestler" baseicon="2" decalicon="1">
+        <img_banner_jpg>
+          <locked type="number">1</locked>
+          <name type="string">banner</name>
+          <image type="image">
+            <bitmap type="string">images\banner.png</bitmap>
+            <gridoffset>0,0</gridoffset>
+          </image>
+        </img_banner_jpg>
+     </category>
+    </imagedata>
+    <imagelists>
+      <bycategory>
+        <description type="string">Images</description>
+        <groups>
+          <typecategoryddbasicrules_player>
+            <description type="string">DD 5E - Wrestler</description>
+            <index>
+              <img_banner_jpg>
+                <link type="windowreference">
+                  <class>imagewindow</class>
+                  <recordname>reference.imagedata.img_banner_png@DD 5E - Wrestler</recordname>
+                  <description>
+                    <field>name</field>
+                  </description>
+                </link>
+                <source type="string" />
+              </img_banner_jpg>
+            </index>
+          </typecategoryddbasicrules_player>
+        </groups>
+      </bycategory>
+    </imagelists>
+    <refmanualdata>
+      <refpage_credits>
+        <name type="string">Credits</name>
+        <group type="string">DD 5E - Wrestler</group>
+        <subgroup type="string">Introduction</subgroup>
+        <text type="formattedtext" />
+        <blocks>
+          <id-00001>
+            <align type="string">center</align>
+            <size type="string">501,248</size>
+            <image type="image">
+              <bitmap type="string">images/banner.png</bitmap>
+            </image>
+            <caption type="string" />
+            <imagelink type="windowreference">
+              <class>imagewindow</class>
+              <recordname>reference.imagedata.img_banner_png</recordname>
+            </imagelink>
+            <blocktype type="string">image</blocktype>
+          </id-00001>
+          <id-00002>
+            <align type="string">center</align>
+            <frame type="string">noframe</frame>
+      <text type="formattedtext"><p>WRESTLE</p></text>
+            <blocktype type="string">singletext</blocktype>
+          </id-00002>
+        </blocks>
+      </refpage_credits>
+      <refpage_introduction>
+        <name type="string">Introduction</name>
+        <group type="string">DD 5E - Wrestler</group>
+        <subgroup type="string">Introduction</subgroup>
+        <text type="formattedtext" />
+        <blocks>
+          <id-00001>
+            <align type="string">center</align>
+            <frame type="string">noframe</frame>
+            <text type="formattedtext"><p>The DUNGEONS &amp; DRAGONS wrestler is made from 50% beef and 50% glory. Baked in combat at a high temp until golden brown.</p></text>
+            <blocktype type="string">singletext</blocktype>
+          </id-00001>
+       </blocks>
+      </refpage_introduction>
+    </refmanualdata>
+    <refmanualindex>
+      <chapters>
+        <chapter_0>
+          <name type="string">DD 5E - Wrestler</name>
+          <subchapters>
+            <subchapter_00>
+              <name type="string">Introduction</name>
+              <refpages>
+                <refpage_0>
+                  <listlink type="windowreference">
+                    <class>reference_manualtextwide</class>
+                    <recordname>reference.refmanualdata.refpage_credits@DD 5E - Wrestler</recordname>
+                    <description>
+                      <field>name</field>
+                    </description>
+                  </listlink>
+                  <name type="string">Credits</name>
+      <keywords type="string">Brian Walker DanD wiki </keywords>
+                </refpage_0>
+                <refpage_1>
+                  <listlink type="windowreference">
+                    <class>reference_manualtextwide</class>
+                    <recordname>reference.refmanualdata.refpage_introduction@DD 5E - Wrestler</recordname>
+                    <description>
+                      <field>name</field>
+                    </description>
+                  </listlink>
+                  <name type="string">Introduction</name>
+      <keywords type="string"></keywords>
+    </refpage_1>
+              </refpages>
+            </subchapter_00>
+          </subchapters>
+        </chapter_0>
+      </chapters>
+    </refmanualindex>
+  </reference>
+  <library>
+    <libndd5e_wrestler>
+      <name type="string">DD 5E - Wrestler</name>
+      <categoryname type="string">Wrestling Rules</categoryname>
+      <entries>
+        <id-00001>
+          <librarylink type="windowreference">
+            <class>reference_colindex</class>
+            <recordname>reference.classlists.byletter@DD 5E - Wrestler</recordname>
+          </librarylink>
+          <name type="string">Classes</name>
+        </id-00001>
+      </entries>
+    </libndd5e_wrestler>
+  </library>
+</root>
+
